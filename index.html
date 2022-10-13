@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script src="js/site.js" async></script>
 	<title>Energy Drink Newsletter</title>
 </head>
 
@@ -22,22 +23,23 @@
 		<h1>Receive early news about our new energy drink</h1>
 	</div>
 	<main>
-		<form method="get" autocapitalize="off" autocomplete="on" id="form">
+		<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="get" autocapitalize="off"
+			autocomplete="on" id="form">
 			<p>Sign Up</p>
 			<div class="form">
-				<input type="text" name="name" autocomplete="on" required />
+				<input type="text" name="name" autocomplete="on" />
 				<label for="name" class="label-name">
 					<span class="content-name">First Name</span>
 				</label>
 			</div>
 			<div class="form">
-				<input type="text" name="name" autocomplete="on" required />
+				<input type="text" name="lname" autocomplete="on" />
 				<label for="name" class="label-name">
-					<span class="content-name">Second Name</span>
+					<span class="content-name">Last Name</span>
 				</label>
 			</div>
 			<div class="form">
-				<input type="text" name="name" autocomplete="on" required />
+				<input type="name" name="email" autocomplete="on" />
 				<label for="name" class="label-name">
 					<span class="content-name">Email Address</span>
 				</label>
