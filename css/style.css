@@ -122,21 +122,28 @@ main {
 
 /* End of Form animation */
 
+@media(min-width: 650px) {
 
-
-@media (min-width: 1000px) {
-    .form {
-        width: 100%;
+    html {
+        height: 150vh;
     }
+
+    .form,
+    #form {
+        width: 40%;
+    }
+
 }
 
-@media (min-width: 769px) {
+@media(min-width: 900px) {
+
     html {
-        margin: 1.5% 10%;
+        height: 110vh;
     }
 
-    .form {
-        width: 40%;
+    .form,
+    #form {
+        width: 350px;
     }
 
 }
