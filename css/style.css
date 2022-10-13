@@ -1,5 +1,5 @@
 html {
-    max-height: 110vh;
+    max-height: 130vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -84,7 +84,7 @@ main {
     width: 100%;
     height: 100%;
     border: none;
-    padding: 15px 0 25px;
+    padding: 15px 0 10px;
     outline: none;
     font-size: 18px;
 }
@@ -133,29 +133,32 @@ main {
 
 /* End of Form animation */
 
-@media(max-width: 650px) {
+@media screen and (max-width: 650px) {
 
     body {
-        height: 120vh;
+        height: 150vh;
     }
 
     .form,
     #form {
-        width: 90%;
+        width: 350px;
         height: 100%;
     }
 
     .title {
-        color: blue;
         padding: 50px 0 40px;
+    }
+
+    .subtitle {
+        max-width: 80%;
     }
 
 }
 
-@media(min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 
     html {
-        height: 110vh;
+        height: 130vh;
     }
 
     .form,
