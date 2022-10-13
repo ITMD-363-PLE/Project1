@@ -1,5 +1,5 @@
 html {
-    height: 110vh;
+    max-height: 110vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,11 +17,22 @@ body {
     background-attachment: fixed;
 }
 
-.title {
+.title,
+.subtitle {
     font-size: 32px;
     font-weight: 900;
     color: yellow;
     padding: 30px;
+    text-align: center;
+}
+
+.title {
+    font-style: italic;
+}
+
+.subtitle {
+    color: white;
+    padding: 2em;
 }
 
 p {
@@ -124,12 +135,19 @@ main {
 
 @media(max-width: 650px) {
 
-    html {
-        height: 110vh;
+    body {
+        height: 120vh;
+    }
+
+    .form,
+    #form {
+        width: 90%;
+        height: 100%;
     }
 
     .title {
         color: blue;
+        padding: 50px 0 40px;
     }
 
 }
