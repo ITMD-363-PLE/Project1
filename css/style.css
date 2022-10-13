@@ -122,20 +122,19 @@ main {
 
 /* End of Form animation */
 
-@media(min-width: 650px) {
+@media(max-width: 650px) {
 
     html {
-        height: 150vh;
+        height: 110vh;
     }
 
-    .form,
-    #form {
-        width: 40%;
+    .title {
+        color: blue;
     }
 
 }
 
-@media(min-width: 900px) {
+@media(min-width: 1000px) {
 
     html {
         height: 110vh;
