@@ -12,9 +12,9 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    font-family: sans-serif;
     background-image: linear-gradient(#000000, #414141);
     background-attachment: fixed;
+    font-family: Tahoma, sans-serif !important;
 }
 
 .title,
@@ -51,7 +51,6 @@ button {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 900;
-    font-family: Nunito-Bold, serif;
     padding: 5px 35px;
     letter-spacing: 1px;
 }
@@ -99,7 +98,6 @@ main {
     border-bottom: 1px solid black;
 }
 
-
 .content-name {
     position: absolute;
     bottom: 5px;
@@ -114,8 +112,6 @@ main {
     font-size: 14px;
     color: black;
 }
-
-
 
 /* End of Form animation */
 
@@ -136,7 +132,7 @@ main {
     }
 
     .subtitle {
-        max-width: 80%;
+        max-width: 70%;
     }
 
 }
