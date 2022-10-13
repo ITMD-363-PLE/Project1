@@ -1,5 +1,5 @@
 html {
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,21 +7,42 @@ html {
 
 body {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    background-image: linear-gradient(#000000, #414141);
+    background-attachment: fixed;
 }
 
 .title {
     font-size: 32px;
     font-weight: 900;
+    color: yellow;
+    padding: 30px;
 }
 
 p {
     font-size: 32px !important;
     padding: 0 0 10px !important;
+}
+
+.button {
+    padding: 20px 0 0;
+}
+
+button {
+    height: 125%;
+    border-radius: 20px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Nunito-Bold, serif;
+    padding: 5px 35px;
+    letter-spacing: 1px;
 }
 
 /* CSS For Form and animation */
@@ -31,13 +52,14 @@ main {
 }
 
 #form {
-    padding: 20px;
-    height: 22vh;
+    padding: 20px 20px 40px;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 2px solid black;
+    background-color: white;
 }
 
 .form {
@@ -102,15 +124,19 @@ main {
 
 
 
-@media screen and (min-width: 600px) {
-    html {
-        margin: 1.5% 10%;
+@media (min-width: 1000px) {
+    .form {
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) {
     html {
         margin: 1.5% 10%;
+    }
+
+    .form {
+        width: 40%;
     }
 
 }
