@@ -23,8 +23,7 @@
 		<h1>Receive early news about our new energy drink</h1>
 	</div>
 	<main>
-		<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="get" autocapitalize="off"
-			autocomplete="on" id="form">
+		<form name="myForm" action="#null" method="get" autocomplete="on" id="form">
 			<p>Sign Up</p>
 			<div class="form">
 				<input type="text" name="name" autocomplete="on" id="name">
@@ -46,7 +45,7 @@
 			</div>
 			<div class="button">
 				<label>
-					<button type="submit">Submit</button>
+					<button type="submit" onclick="validateForm()">Submit</button>
 				</label>
 			</div>
 		</form>
