@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     background-image: linear-gradient(#000000, #414141);
     background-attachment: fixed;
-    font-family: 'Lexend Mega', sans-serif !important;
+    font-family: 'Lexend Mega', sans-serif, 'Times New Roman', Times, serif !important;
 }
 
 .title,
