@@ -19,13 +19,3 @@ function validateForm() {
         return false;
     }
 }
-
-
-const x = { name: 'joe' };
-
-let y = x;
-
-y.name = 'bob';
-
-console.log(x.name);
-document.write();
