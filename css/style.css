@@ -1,3 +1,4 @@
+/* Musical tetratonic scale at 1em */
 h1 {
     font-size: 2em !important;
 }
@@ -22,6 +23,8 @@ small {
     font-size: .8409em;
 }
 
+/* Musical tetratonic scale at 1em */
+
 html {
     max-height: 130vh;
     margin: 0;
@@ -38,7 +41,7 @@ body {
     flex-direction: column;
     background-image: linear-gradient(#000000, #414141);
     background-attachment: fixed;
-    font-family: Tahoma, sans-serif !important;
+    font-family: 'Lexend Mega', sans-serif !important;
 }
 
 .title,
@@ -75,6 +78,7 @@ button {
     font-weight: 900;
     padding: 5px 35px;
     letter-spacing: 1px;
+    font-family: 'Lexend Mega', sans-serif !important;
 }
 
 /* CSS For Form and animation */
